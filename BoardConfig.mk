@@ -182,7 +182,8 @@ BOARD_SEPOLICY_UNION += \
     rmt_storage.te \
     sysinit.te \
     system_server.te \
-    vold.te
+    vold.te \
+    ueventd.te
 
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
