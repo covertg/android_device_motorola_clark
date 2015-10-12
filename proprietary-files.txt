@@ -101,7 +101,6 @@ lib/hw/camera.msm8992.so
 lib/libadvalgcore.so
 lib/libAisAdapter.so
 lib/libAlAisLib.so
-lib/libbson.so
 lib/libcamerabgproc-jni.so
 lib/libcamerabgprocservice.so
 lib/libjscore.so
@@ -263,7 +262,6 @@ vendor/lib/libtzdrmgenprov.so
 vendor/lib/libwvdrm_L1.so
 vendor/lib/libwvm.so
 vendor/lib/libWVStreamControlAPI_L1.so
-vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
 # Display tuning
@@ -306,13 +304,11 @@ lib/libloc_api_v02.so
 lib/libloc_ds_api.so
 vendor/lib/libalarmservice_jni.so
 vendor/lib/libgeofence.so
-vendor/lib/libizat_core.so
 vendor/lib/liblbs_core.so
 vendor/lib/libloc_ext.so
 vendor/lib/liblocationservice.so
 vendor/lib/libquipc_os_api.so
 vendor/lib/libulp2.so
-lib/libloc_eng.so
 
 # Adreno GPU
 etc/firmware/a225p5_pm4.fw
@@ -396,7 +392,6 @@ vendor/lib/libdsutils.so
 vendor/lib/libqcci_legacy.so
 
 # CNE / DPM
-lib/libcnefeatureconfig.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libcneconn.so
 vendor/lib/libcneqmiutils.so
@@ -414,13 +409,11 @@ bin/netmgrd
 bin/qmi_motext_hook
 bin/qmuxd
 bin/radish
-bin/rild
 bin/rfs_access
 bin/rmt_storage
 lib/libmdmcutback.so
 lib/libmotext_inf.so
 lib/libqmimotext.so
-lib/libril.so
 vendor/lib/libmdmdetect.so
 vendor/lib/libnetmgr.so
 vendor/lib/libril-qc-qmi-1.so

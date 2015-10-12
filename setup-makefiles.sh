@@ -80,6 +80,11 @@ PRODUCT_PACKAGES += \\
     com.qualcomm.services.location \\
     MotGeoFenceSvc
 
+# For QC's TimeServices
+PRODUCT_COPY_FILES += \\
+    vendor/motorola/clark/proprietary/vendor/lib64/libtime_genoff.so:obj/lib/libtime_genoff.so \\
+    vendor/motorola/clark/proprietary/vendor/lib/libtime_genoff.so:obj_arm/lib/libtime_genoff.so
+
 \$(call inherit-product, vendor/$VENDOR/$DEVICE/$DEVICE-vendor-blobs.mk)
 EOF
 
